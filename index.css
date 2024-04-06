@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.search-box input{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 3px;
+    background-color:rgb(156, 223, 200);
+}
+
+.search-box button{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color:rgb(156, 223, 200);
+}
+
+.search-box button:hover{
+    background-color: black;
+    color: white;
+}
+
+.weather_body{
+    width: 100%;
+    height: 410px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#location-not-found{
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-not-found h1{
+    font-size: 22px;
+    color:darkgrey;
+}
+
+#location-not-found img{
+    margin-top: 10px;
+    width: 200px;
+}
+.weather-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather-box .temperature{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.Other{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.first, .second{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+#humidity, #speed{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#description{
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+
+
+
+

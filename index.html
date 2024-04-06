@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your city name..." id="inputBox">
+                <button class="fa-solid fa-magnifying-glass" id="search-btn"></button>
+            </div>
+
+            <div id="location-not-found">
+                <h1>Sorry! Location not found!!!</h1>
+                <img src="assets/404.png" alt="404">
+            </div>
+            <div class="weather_body">
+                <img src="assets/clear.png" alt="clear-weather" class="weather-img" id="weatherImg">
+
+                <div class="weather-box">
+                    <p class="temperature" id="temperature">0<sup>°C</sup></p>
+                    <p id="description" style="font-weight: bold;">
+                        light rain
+                    </p>
+                </div>
+
+                <div class="Other">
+                    <div class="first">
+                        <i class="fa-solid fa-droplet icon" style="color: #0a0a0a;"></i>
+                        <div>
+                            <p id="humidity">51%</p>
+                            <p id="description">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <i class="fa-solid fa-wind icon" style="color: #000000;"></i>
+                        <div>
+                            <p id="speed">51Km/H</p>
+                            <p id="description">Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/cf3566a9fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
